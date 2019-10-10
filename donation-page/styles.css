@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    margin: 0px;
+}
+
+header > h1{
+    margin-top: 0px;
+    color: white;
+}
+
+header > h4{
+    color: white;
+}
+
+header > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    color: white;
+}
+
+ ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    background-image: url("IMG_4715.JPG");
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  
+}
