@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Material Header</title>
+</head>
+<body>
+    <header>
+        <section class="mobile-menu-wrapper">
+            <button class="nav-menu" arealabel="menu" onclick="openMenu()">
+                <i class="material-icons nav-icon">menu</i>
+                
+            </button>
+        </section>
+        
+        <section id="side-nav" class="side-nav">
+            <a href="#" class="close-side-button" onclick="closeMenu()"><i class="material-icons">close</i>
+            </a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </section>
+        
+        <section class="title-wrapper">
+            <h1 class="title">Page Title Here</h1>
+        </section>
+        
+        <section class="primary-action-wrapper">
+            <button class="primary-action nav-button"><span>Act Now</span>
+            </button>
+        </section>
+        
+        <section class="home-button-wrapper">
+            <button class="home-button nav-button"><span>Home</span>
+            </button>
+        </section>
+        
+        <section class="news-button-wrapper">
+            <button class="news-button nav-button"><span>News</span>
+            </button>
+        </section>
+        
+        <section class="sign-button-wrapper">
+            <button class="signup-button nav-button"><span>Sign Up</span>
+            </button>
+        </section>
+        
+    </header>
+    
+    
+    <script>
+        function openMenu(){
+            document.getElementById("side-nav").style.width="80vw";
+        }
+        
+        function closeMenu(){
+            document.getElementById("side-nav").style.width="0";
+        }
+    </script>
+</body>
+</html>

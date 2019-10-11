@@ -1,0 +1,100 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.nav-menu {
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+
+.home-button-wrapper {
+    display: none;
+}
+
+.news-button-wrapper {
+    display: none;
+}
+
+.sign-button-wrapper {
+    display: none;
+}
+
+.side-nav {
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: white;
+    overflow-x:hidden;
+    padding-top:60px;
+    transition-property: width;
+    transition:0.5s;
+}
+
+.side-nav a {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    font-size: 18px;
+    border-top: 1px solid black;
+}
+
+.side-nav a:last-of-type {
+    border-bottom: 1px solid black;
+}
+
+
+/*FOR TABLETS*/
+
+@media screen and (min-width: 768px) {
+    header {
+        background-color: purple;
+        justify-content: space-around;
+    }
+    
+    .mobile-menu-wrapper {
+        display: none;
+    }
+    
+    .home-button-wrapper {
+        display: inline-block;
+        order: -1;
+    }
+}
+
+/*FOR LAPTOPS*/
+
+@media screen and (min-width: 1024px) {
+    
+}
