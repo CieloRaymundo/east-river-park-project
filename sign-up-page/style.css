@@ -1,0 +1,98 @@
+
+body{
+    margin:0;
+}
+header{
+    height:217px;
+    background-color: #afdb8c;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+}
+h1{
+    margin-bottom:0;
+    font-size: 3em;
+}
+nav{
+    justify-self:flex-end;
+    border:1px solid black;
+    border-right-style: none;
+    border-left-style: none;
+    width:90%;
+    display: flex;
+    justify-content:center;
+}
+ul{
+    padding: 0;
+    width:20%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row;
+    list-style: none;
+}
+main{
+    margin:5%;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    grid-template-rows:1fr;
+}
+aside{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:1px solid black;
+    padding:5%;
+    margin-right: 10px;
+    height: 100%;
+}
+aside img{
+    width:100%;
+    height:100%;
+}
+aside a {
+    margin:10px;
+    font-size:28px;
+    font-weight:bold;
+    color:black;
+}
+.signup{
+    height:100%;
+    box-sizing: border-box;
+}
+form{
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+}
+fieldset{
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    text-align:center;
+    padding:10%;
+}
+fieldset section{
+    margin:10px;
+}
+footer{
+    border:1px solid black;
+    padding:5px;
+    display:flex;
+    justify-content:space-between;
+}
+footer img{
+    width:30px;
+    height:30px;
+}
+.contact{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.contact a{
+    text-decoration:none;
+    color:black;
+}
