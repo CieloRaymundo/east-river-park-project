@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<script type="text/javascript" src="app.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+      <h1 class="web-title">East River Park ACTION</h1>
+      <h4>Don't kill our park for a bad flood plan.</h4>
+      <nav>
+          <ul>
+              <li>Home</li>
+              <li>Goals</li>
+              <li>News</li>
+              <li>Posts</li>
+              <li>Sign-Up</li>
+          </ul>
+      </nav>
+  </header>
+  <main>
+      <h2>E.R.P.A is making our voices heard through
+          <span
+               class="txt-rotate"
+               data-period="2000"
+               data-rotate='[ "Protests.", "Investigating legal action.", "Developing the plan."]'></span>
+        </h2>
+      <section>
+        <div class="blue-block">
+          <h3>Donate With PayPal</h3>
+        </div>
+        
+         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_donations" />
+            <input type="hidden" name="business" value="Z6XWD85PF9H4L" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <label for="amount">How much would you like to Donate?</label>
+            <select id="donation-amt" name="amount">
+              <option value="10USD">$10.00</option>
+              <option value="25USD">$25.00</option>
+              <option value="50USD">$50.00</option>
+              <option value="75USD">$75.00</option>
+            </select>
+            <input type="submit" value="Donate" id="donate-btn" alt="Donate with paypal button.">
+            <input type="hidden" name="return" value="#">
+         </form>
+         <img class="pay-methods" src="paymethods.png" alt="Possible methods of payment">
+      </section>
+      <article>
+          <img class="main-img" src="IMG_4655.jpg" alt="Image of ERP Protestors.">
+          <p>Mayor deBlasio: Closing and flattening the largest park in Lower Manhattan, a jewel along the waterfront, playground and sanctuary for some 110,000 low-and-middle income New Yorkers, is not a Green New Deal.</p>
+      </article>
+  </main>
+  <footer>
+      <nav>
+           <ul class="footer-nav">
+              <li><a href="https://www.facebook.com/erpaction/"><img class ="social-btns" src="facebook.png"></a></li>
+              <li><a href="https://www.instagram.com/eastriverparkaction/"><img class ="social-btns" src="instagram.png"></a></li>
+              <li><a href="https://twitter.com/ERPAction"><img class ="social-btns" src="twitter.png"></a></li>
+          </ul>
+      </nav>
+  </footer>
+
+</body>
+</html>
