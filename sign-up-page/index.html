@@ -7,24 +7,71 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/bb0ec1a780.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" class="css">
-    <title>Document</title>
+    <title>Sign-Up</title>
 </head>
 <body class="overriding">
-    <header class="header">
-        <section class="title"> 
-            <h1 class="ERPAs">East River Park ACTION</h1>
-            <p>Don't kill our park for a bad flood plan</p>
-        </section>
-        <nav class="menu">
-            <ul>
-                <li>Home</li>
-                <li>Goals</li>
-                <li>News</li>
-                <li>Posts</li>
-                <li>Donate</li>
+   <header>
+        <div class="wumbotron">
+        <img class="background-img" src="header-img.jpg" alt="East river park picture.">
+        </div>
+           
+        <section class="page-nav">
+        <nav>
+            <section class="mobile-menu-wrapper">
+                <button class="nav-menu" type="button" arealabel="menu" onclick="openMenu()">
+                    <i class="fas fa-bars fa-2x"></i>
+                    
+                </button>
+            </section>
+            
+            <section id="side-nav" class="side-nav">
+                <ul>
+                    <li>
+                        <a href="#" class="close-side-button" onclick="closeMenu()"><i class="far fa-times-circle fa-2x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=ourpark@eastriverparkaction.org">Contact</a>
+                    </li>
+                </ul>
+            </section>
+        </nav class="perm">
+            
+            <section class="title-wrapper">
+                <h1 class="title">Sign-Up</h1>
+            </section>
+            
+        <nav>
+            <ul class="nav-bar">
+                <li class="primary-action-wrapper">
+                    <a href="#" class="primary-action nav-button">Act Now</a>
+                </li>
+                
+                <li class="home-button-wrapper">
+                    <a href="#" class="home-button nav-button">Home</a>
+                </li>
+                
+                <li class="news-button-wrapper">
+                    <a href="#" class="news-button nav-button">News</a>
+                </li>
+                
+                <li class="sign-button-wrapper">
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=ourpark@eastriverparkaction.org" class="signup-button nav-button">Contact</a>
+                </li>
             </ul>
         </nav>
+        </section>
     </header>
     <main class="content">
         <aside>
@@ -69,7 +116,7 @@
         <section class="sign-up">
             <form>
                 <fieldset>
-                    <legend>Subscribe to east river park action</legend>
+                    <h3>Subscribe to east river park action</h3>
         			<label for="uemail">Enter Your email to learn more about us and what we are doing</label>
                     <input type="email" name="user-email" id="uemail">
                     <input type="submit" name="submit" value="Submit">
@@ -78,14 +125,24 @@
     	</section>
     </main>
     <footer>
-        <section class="social">
-            <a href="https://twitter.com/ERPAction?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3AERPAction&ref_url=http%3A%2F%2Feastriverparkaction.org%2F"><img src="https://img.pngio.com/twitter-app-icon-transparent-336220-free-icons-library-twitter-icon-transparent-512_512.jpg"></a>
-            <a href="https://www.instagram.com/eastriverparkaction/"><img src="http://www.transparentpng.com/thumb/logo-instagram/YfpFOL-logo-instagram-free-transparent.png"></a>
-            <a href="https://www.facebook.com/erpaction/"><img src="https://everdrymichigan.com/wp-content/uploads/2018/03/facebook-logo-png-transparent-background-1024x1024.png"/></a>
-        </section>
-        <section class="contact">
-            <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=ourpark@eastriverparkaction.org">ourpark@eastriverparkaction.org</a>
-        </section>
-    </footer>
+      <nav>
+           <ul class="footer-nav">
+              <li><a href="https://www.facebook.com/erpaction/"><img class ="social-btns" src="facebook.png"></a></li>
+              <li><a href="https://www.instagram.com/eastriverparkaction/"><img class ="social-btns" src="instagram.png"></a></li>
+              <li><a href="https://twitter.com/ERPAction"><img class ="social-btns" src="twitter.png"></a></li>
+          </ul>
+      </nav>
+  </footer>
+        
+
+    <script>
+        function openMenu(){
+            document.getElementById("side-nav").style.width="60vw";
+        }
+        
+        function closeMenu(){
+            document.getElementById("side-nav").style.width="0";
+        }
+    </script>
 </body>
 </html>
