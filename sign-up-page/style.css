@@ -194,8 +194,6 @@ nav a {
 }
 
 /*Enmanuels code*/
-
-
 /*Header Stylings*/
 body {
     margin:0;
@@ -342,7 +340,6 @@ legend{
 
 
 /*FOR TABLETS*/
-
 @media screen and (min-width: 768px) {
     header {
         justify-content: space-around;
@@ -372,7 +369,6 @@ legend{
 }
 
 /*FOR LAPTOPS*/
-
 @media screen and (min-width: 1024px) {
     
     .background-img {
