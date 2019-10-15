@@ -1,22 +1,22 @@
 
-body{
+body {
     margin: 0px;
     background-color: #ffffff;
 }
 
 
-h2{
+h2 {
     font-size: 20px;
     text-align: center;
     padding: 20px;
 }
 
-h3{
+h3 {
     color: white;
     margin: 0px;
 }
 
-.blue-block{
+.blue-block {
     padding-top: 15px;
     height: 50px;
     width: 100%;
@@ -25,7 +25,7 @@ h3{
 }
 
 
- ul{
+ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -33,7 +33,7 @@ h3{
     color: white;
 }
 
-.main-img{
+.main-img {
     height: 185px;
     width: 90%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -42,7 +42,7 @@ h3{
     max-width: 400px
 }
 
-.card{
+.card {
     text-align: center;
     margin-bottom: 10px;
     background-color: #ffffff;
@@ -56,12 +56,12 @@ h3{
 }
 
 
-.footer-nav{
+.footer-nav {
     color: black;
 }
 
 
-#donate-btn{
+#donate-btn {
     height: 40px;
     width: 120px;
     background-color: #ffc439;
@@ -98,12 +98,15 @@ h3{
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
+
 #donation-amt::-ms-expand {
 	display: none;
 }
+
 #donation-amt:hover {
 	border-color: #888;
 }
+
 #donation-amt:focus {
 	border-color: #aaa;
 	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
@@ -111,44 +114,45 @@ h3{
 	color: #222;
 	outline: none;
 }
+
 #donation-amt option {
 	font-weight:normal;
 }
 
-.pay-methods{
+.pay-methods {
     height: 80px;
     width: 180px;
 }
 
-#paypal-icon{
+#paypal-icon {
     height: 35px;
     width: 40px;
 }
 
-.logo{
+.logo {
     height: 100px;
     width: 100px;
 }
 
-footer{
+footer {
     background-color:black;
     margin: 0px;
     height: 60px;
 }
 
-.social-btns{
+.social-btns {
     height: 30px;
     width: 30px;
     margin-top: 15px;
 }
 
-article{
+article {
     padding: 20px;
     margin-top: 25px;
     text-align: center;
 }
 
-.footer-nav{
+.footer-nav {
     margin: 0px;
     
 }
@@ -266,13 +270,12 @@ nav a {
 }
 
 .side-nav li:first-of-type {
-    border: none;
+    border-top: 1px solid black;
 }
 
 .side-nav a:hover {
     background-color: black;
     color: white;
-    border-radius: 5px;
     border: none;
 }
 
@@ -281,10 +284,8 @@ nav a {
 }
 
 .side-nav li {
-    margin: 4px;
     width: 60%;
-    border: 1px solid black;
-    border-radius: 6px;
+    border-bottom: 1px solid black;
     text-align: center;
 }
 
