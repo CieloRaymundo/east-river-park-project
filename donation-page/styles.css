@@ -355,7 +355,7 @@ nav a {
     width: 100%;
     height: auto;
     background: url("header-img.png") no-repeat 50% 50%;
-}
+    }
 
     
     .page-nav {
@@ -365,4 +365,17 @@ nav a {
     .title {
         font-size: 36px;
     }
+    
+    .content{
+        display: flex;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+    
+    p{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    
 }
