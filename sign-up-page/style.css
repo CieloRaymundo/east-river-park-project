@@ -1,18 +1,18 @@
-.overriding{
+.overriding {
     margin:0;
 }
 
-.ERPAs{
+.ERPAs {
     margin-bottom:0;
     font-size: 3em;
     font-weight:bold;
     text-align: center;
 }
-.header p{
+.header p {
     font-size:1.5em;
     text-align: center;
 }
-.menu{
+.menu {
     border:1px solid black;
     border-right-style: none;
     border-left-style: none;
@@ -21,7 +21,7 @@
     display: flex;
     justify-content:center;
 }
-.menu ul{
+.menu ul {
     padding: 0;
     width:100%;
     display: flex;
@@ -31,7 +31,7 @@
     font-size:1.5em;
 }
 
-aside{
+aside {
     box-sizing: border-box;
     border:1px solid black;
     padding:5%;
@@ -42,7 +42,7 @@ aside{
      border-radius: 5px;
 }
 
-.container img{
+.container img {
     width:100%;
     min-height: 200px;
     max-height: 200px;
@@ -54,7 +54,7 @@ aside a {
     text-decoration: underline;
     color:black;
 }
-.sign-up{
+.sign-up {
     height: 250px;
     box-sizing: border-box;
     margin: 20px auto;
@@ -62,10 +62,11 @@ aside a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
 }
-.sign-up form{
+
+.sign-up form {
     height:100%;
 }
-.sign-up fieldset{
+.sign-up fieldset {
     height:100%;
     border:1px solid black;
     box-sizing:border-box;
@@ -74,7 +75,7 @@ aside a {
     border-radius: 5px;
 }
 
-footer{
+footer {
     background-color:black;
     margin: 0px;
     height: 60px;
@@ -194,8 +195,6 @@ nav a {
 }
 
 /*Enmanuels code*/
-
-
 /*Header Stylings*/
 body {
     margin:0;
@@ -311,6 +310,7 @@ legend{
 
 .side-nav li:first-of-type {
     border-top: 1px solid black;
+
 }
 
 .side-nav a:hover {
@@ -336,10 +336,7 @@ legend{
 }
 
 
-
-
 /*FOR TABLETS*/
-
 @media screen and (min-width: 768px) {
     header {
         justify-content: space-around;
@@ -369,7 +366,6 @@ legend{
 }
 
 /*FOR LAPTOPS*/
-
 @media screen and (min-width: 1024px) {
     
     .background-img {

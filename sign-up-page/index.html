@@ -4,39 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="description" content="East River Park Action Sign Up page. Sign the petition or sign up to receive emails from us.">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/bb0ec1a780.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" class="css">
-    <title>Sign-Up</title>
+    <title>ERPA: Sign-Up</title>
 </head>
 <body class="overriding">
    <header>
+        <!--background image on header-->
         <div class="wumbotron">
-        <img class="background-img" src="header-img.jpg" alt="East river park picture.">
+            <img class="background-img" src="header-img.jpg" alt="East river park picture.">
         </div>
-           
+        
+        <!--Navigator with Tabs   -->
         <section class="page-nav">
-        <nav>
-            <section class="mobile-menu-wrapper">
-                <button class="nav-menu" type="button" arealabel="menu" onclick="openMenu()">
-                    <i class="fas fa-bars fa-2x"></i>
-                    
-                </button>
+            <!--navigatpor for mobile version-->
+            <nav>
+                <section class="mobile-menu-wrapper">
+                    <button class="nav-menu" type="button" arealabel="menu" onclick="openMenu()">
+                        <i class="fas fa-bars fa-2x"></i>
+                        
+                    </button>
+                </section>
+                
+                <section id="side-nav" class="side-nav">
+                    <ul>
+                        <li>
+                            <a href="#" class="close-side-button" onclick="closeMenu()"><i class="far fa-times-circle fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://eastriverparkaction.org/home/">Home</a>
+                        </li>
+                        <li>
+                            <a href="http://eastriverparkaction.org/about/">Goals</a>
+                        </li>
+                        <li>
+                            <a href="http://eastriverparkaction.org/posts/">Posts</a>
+                        </li>
+                        <li>
+                            <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=ourpark@eastriverparkaction.org">Contact</a>
+                        </li>
+                    </ul>
+                </section>
+            </nav class="perm">
+            
+            <!--Page title-->
+            <section class="title-wrapper">
+                <h1 class="title">Sign-Up</h1>
             </section>
             
-            <section id="side-nav" class="side-nav">
-                <ul>
-                    <li>
-                        <a href="#" class="close-side-button" onclick="closeMenu()"><i class="far fa-times-circle fa-2x"></i>
-                        </a>
+            <!--navigator for desktop version-->
+            <nav>
+                <ul class="nav-bar">
+                    <li class="primary-action-wrapper">
+                        <a href="http://eastriverparkaction.org/actions-now/" class="primary-action nav-button">Act Now</a>
                     </li>
-                     <li>
-                        <a href="http://eastriverparkaction.org/home/">Home</a>
+                    
+                    <li class="home-button-wrapper">
+                        <a href="http://eastriverparkaction.org/home/" class="home-button nav-button">Home</a>
                     </li>
-                    <li>
-                        <a href="http://eastriverparkaction.org/about/">Goals</a>
+                    <li class="primary-action-wrapper">
+                        <a href="../donation-page/index.html" class="primary-action nav-button">Donate</a>
                     </li>
                     <li>
                         <a href="http://eastriverparkaction.org/posts/">News</a>
@@ -85,9 +117,10 @@
         </section>
     </header>
     <main class="content">
+        <!--carousel-->
         <aside>
             <section class="container">
-              <a href="https://www.change.org/p/mayor-bill-de-blasio-save-east-river-park-urge-nyc-to-develop-a-resilient-plan-with-consensus-from-community?recruiter=1005757590&utm_source=share_petition&utm_medium=copylink&utm_campaign=share_petition">CLICK TO SIGN THE PETITION!!!
+              <a href="https://www.change.org/p/mayor-bill-de-blasio-save-east-river-park-urge-nyc-to-develop-a-resilient-plan-with-consensus-from-community?recruiter=1005757590&utm_source=share_petition&utm_medium=copylink&utm_campaign=share_petition">Click to Sign the Petition
               </a>
               <section id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -107,46 +140,68 @@
                       <img src="https://i1.wp.com/eastriverparkaction.org/wp-content/uploads/2019/09/Arnow-East-River-Park-4.jpg?resize=300%2C225" alt="bridge">
                     </div>
                   
-                    <div class="item">
-                      <img src="https://indypendent.org/wp-content/uploads/2019/09/March-Photo-1-e1569506153871-450x252.jpg" alt="people">
-                    </div>
-                  </div>
-              
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-              </section>
+                  <section id="myCarousel" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>
+                  
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <!--Image for first slide-->
+                          <img src="https://static01.nyt.com/images/2019/01/20/nyregion/20PARK1/merlin_148106259_ec765136-f61e-452c-90f9-9ab955f14518-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="sunset">
+                        </div>
+                  
+                        <div class="item">
+                          <!--Image for second slide-->
+                          <img src="https://i1.wp.com/eastriverparkaction.org/wp-content/uploads/2019/09/Arnow-East-River-Park-4.jpg?resize=300%2C225" alt="bridge">
+                        </div>
+                      
+                        <div class="item">
+                          <!--Image for third slide-->
+                          <img src="https://indypendent.org/wp-content/uploads/2019/09/March-Photo-1-e1569506153871-450x252.jpg" alt="people">
+                        </div>
+                      </div>
+                  
+                      <!-- Left and right controls -->
+                      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                  </section>
           </section>
         </aside>
+        <!--Form for sign-up -->
         <section class="sign-up">
             <form>
                 <fieldset>
-                    <h3>Subscribe to east river park action</h3>
-        			<label for="uemail">Enter Your email to learn more about us and what we are doing</label>
+                    <h3>Subscribe to East River Park Action</h3>
+        			<label for="uemail">Enter Your Email to Subcribe to Our Newsletter</label>
                     <input type="email" name="user-email" id="uemail">
                     <input type="submit" name="submit" value="Submit">
                 </fieldset>
     		</form>
     	</section>
     </main>
+    <!--Footer with social media-->
     <footer>
       <nav>
            <ul class="footer-nav">
-              <li><a href="https://www.facebook.com/erpaction/"><img class ="social-btns" src="facebook.png"></a></li>
-              <li><a href="https://www.instagram.com/eastriverparkaction/"><img class ="social-btns" src="instagram.png"></a></li>
-              <li><a href="https://twitter.com/ERPAction"><img class ="social-btns" src="twitter.png"></a></li>
+              <li><a href="https://www.facebook.com/erpaction/"><img class ="social-btns" src="facebook.png" alt="facebook.com"></a></li>
+              <li><a href="https://www.instagram.com/eastriverparkaction/"><img class ="social-btns" src="instagram.png" alt="instagram.com"></a></li>
+              <li><a href="https://twitter.com/ERPAction"><img class ="social-btns" src="twitter.png" alt="twitter.com"></a></li>
           </ul>
       </nav>
   </footer>
-        
-
-    <script>
+  <!--JavaScript for header -->
+  <script>
         function openMenu(){
             document.getElementById("side-nav").style.width="60vw";
         }
@@ -154,6 +209,6 @@
         function closeMenu(){
             document.getElementById("side-nav").style.width="0";
         }
-    </script>
+  </script>
 </body>
 </html>
